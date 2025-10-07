@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananda Aulia Fauziah</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lobster+Two:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <h1 class="header-h1">This is a Summary About Version Control System</h1>
+    </div>
+
+    <div class="container">
+        <div class="profile">
+            <img src="gambar2.png" class="profile-img" alt="Version Control Illustration">
+            <h2 class="profile-h2">About VCS</h2>
+            <p class="profile-p">
+                Version Control System (VCS) adalah sistem yang digunakan untuk mengelola perubahan pada file dan proyek secara teratur. 
+                Dengan VCS, pengguna dapat melacak versi sebelumnya, membatalkan perubahan yang salah, serta berkolaborasi dengan tim tanpa kehilangan data.
+                <br><br>
+                Terdapat dua jenis utama VCS: <b>Centralized</b> seperti SVN yang bergantung pada server pusat, 
+                dan <b>Distributed</b> seperti Git yang menyimpan seluruh riwayat pada setiap komputer pengembang. 
+                Sistem seperti Git memudahkan kolaborasi karena setiap orang memiliki salinan lengkap dari proyek.
+                <br><br>
+                Beberapa istilah penting dalam VCS antara lain <b>repository</b> (tempat penyimpanan proyek dan riwayatnya), 
+                <b>commit</b> (catatan perubahan), <b>branch</b> (jalur pengembangan), dan <b>merge</b> (penggabungan perubahan). 
+                VCS juga membantu menghindari konflik saat banyak orang mengedit file yang sama secara bersamaan.
+            </p>
+        </div>
+
+        <div class="galeri">
+            <h2 class="galeri-h2">VCS in Practice</h2>
+
+            <div class="Kartu-Aktivitas">
+                <h2 class="Kartu-Aktivitas-h2">Basic Workflow</h2>
+                <p class="galeri-p">
+                    Berikut alur kerja dasar dalam Git:
+                    <br><br>
+                    <code>git clone &lt;url&gt;</code> → Menyalin repository.<br>
+                    <code>git add .</code> → Menambahkan file ke staging area.<br>
+                    <code>git commit -m "pesan"</code> → Menyimpan perubahan.<br>
+                    <code>git push origin branch</code> → Mengirim ke server.<br><br>
+                    Langkah-langkah ini membantu pengembang bekerja secara mandiri dan terkoordinasi melalui remote repository seperti GitHub.
+                </p>
+            </div>
+
+            <div class="Kartu-Aktivitas">
+                <h2 class="Kartu-Aktivitas-h2">Common Commands</h2>
+                <p class="galeri-p">
+                    Perintah Git yang sering digunakan:
+                    <br><br>
+                    <code>git status</code> → Melihat status file.<br>
+                    <code>git log --oneline</code> → Melihat riwayat singkat.<br>
+                    <code>git branch</code> → Menampilkan daftar branch.<br>
+                    <code>git merge</code> → Menggabungkan branch.<br>
+                    <code>git pull</code> → Mengambil dan menggabungkan update.<br>
+                    <code>git stash</code> → Menyimpan sementara perubahan.<br><br>
+                    Perintah-perintah ini membuat pengelolaan proyek menjadi lebih efisien dan terorganisir.
+                </p>
+            </div>
+
+            <div class="Kartu-Aktivitas">
+                <h2 class="Kartu-Aktivitas-h2">Best Practices</h2>
+                <p class="galeri-p">
+                    Dalam penggunaan VCS, beberapa praktik terbaik antara lain:
+                    <ul class="galeri-ul">
+                        <li>Lakukan commit secara rutin dan beri pesan yang jelas.</li>
+                        <li>Gunakan branch terpisah untuk setiap fitur atau perbaikan bug.</li>
+                        <li>Lakukan pull atau rebase sebelum push untuk menghindari konflik.</li>
+                        <li>Gunakan file <code>.gitignore</code> untuk mengabaikan file tidak penting.</li>
+                        <li>Gunakan sistem kolaborasi seperti pull request untuk review kode.</li>
+                    </ul>
+                    Dengan kebiasaan yang baik, proyek akan lebih mudah dikelola dan kualitas kode tetap terjaga.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
